@@ -18,8 +18,25 @@
     <link rel="stylesheet" type="text/css" href="./StyleSheet/style.css" />
   </head>
   <body>
+    <h1>Very Fancy Design</h1>
+    <span class="sub-heading">
+      Almost Perfect weather app!<br />With pleasing and a beautiful interface
+    </span>
+    <input type="text" placeholder="Type a name of a city..." />
     <button onclick="handleCheckWeather()">Check</button>
+    <div class="result">
+      <p>Country: <span class="country"></span></p>
+      <p>City: <span class="name"></span></p>
+      <p>Temperature: <span class="temp"></span>&deg;</p>
+      <p>Feels Like: <span class="feels_like"></span>&deg;</p>
+      <p>Pressure: <span class="pressure"></span>Pa</p>
+      <p>Humidity: <span class="humidity"></span>g/kg</p>
+      <p>Wind Direction: <span class="deg"></span>&deg;</p>
+      <p>Wind Speed: <span class="speed"></span>kn</p>
+      <p>Wind gust: <span class="gust"></span>kn</p>
+    </div>
 
+    <p class="sub-heading">Wow! A fantastic looking "Check" button</p>
     <script defer src="./JavaScript/script.js"></script>
   </body>
 </html>
